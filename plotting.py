@@ -17,7 +17,7 @@ header6 = "z2_value"
 index = count()
 
 
-def animate():
+def animate(i):
     data = pd.read_csv('FILENAME.csv')
     x1 = data[header1]
     y1 = data[header2]
