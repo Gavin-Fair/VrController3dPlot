@@ -6,7 +6,7 @@ from matplotlib.animation import FuncAnimation
 
 ax = plt.axes(projection='3d')
 
-namefile = 'points.csv'
+namefile = 'FILENAME.csv'
 header1 = "x1_value"
 header2 = "y1_value"
 header3 = "z1_value"
@@ -18,7 +18,7 @@ index = count()
 
 
 def animate():
-    data = pd.read_csv('points.csv')
+    data = pd.read_csv('FILENAME.csv')
     x1 = data[header1]
     y1 = data[header2]
     z1 = data[header3]
