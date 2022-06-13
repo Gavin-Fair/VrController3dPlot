@@ -4,7 +4,7 @@ import triad_openvr
 
 
 v = triad_openvr.triad_openvr()
-namefile = 'points.csv'
+namefile = 'FILENAME.csv'
 header1 = "x1_value"
 header2 = "y1_value"
 header3 = "z1_value"
